@@ -1,7 +1,7 @@
 #include <Servo.h>
 Servo servoX;
 Servo servoY;
-int middle = 83;
+int const middle = 83;
 int iterations = 0;
 bool connection = false;
 
